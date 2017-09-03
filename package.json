@@ -1,0 +1,38 @@
+{
+  "name": "hyper-tufte",
+  "version": "0.0.0",
+  "description": "💜 Make your Hyper terminal look like \"a grim parody of a video game\"",
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "hyperterm",
+    "purple",
+    "tufte",
+    "terminal",
+    "theme",
+    "colorful",
+    "💜",
+    "🌈",
+    "🎨",
+    "joy",
+    "lol"
+  ],
+  "homepage": "https://github.com/alecglassford/hyper-tufte#readme",
+  "bugs": {
+    "url": "https://github.com/alecglassford/hyper-tufte/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alec Glassford",
+    "email": "glassford@cs.stanford.edu",
+    "url": "https://alecglassford.com"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecglassford/hyper-tufte.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
