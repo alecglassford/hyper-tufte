@@ -33,6 +33,11 @@
     "url": "git+https://github.com/alecglassford/hyper-tufte.git"
   },
   "scripts": {
+    "commitmsg": "commit-msg-must-use-emoji",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "commit-msg-must-use-emoji": "^1.0.0",
+    "husky": "^0.14.3"
   }
 }
