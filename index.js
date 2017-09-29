@@ -1,19 +1,28 @@
-const colors = {};
-colors.black = colors.lightBlack = '#594a7d';
-colors.red = colors.lightRed = '#f35970';
-colors.green = colors.lightGreen = '#83d996';
-colors.yellow = colors.lightYellow = '#ffffff';
-colors.blue = colors.lightBlue = '#62bff7';
-colors.magenta = colors.lightMagenta = '#f15195';
-colors.cyan = colors.lightCyan = '#48ecd3';
-colors.white = colors.lightWhite = '#f5e566';
+const colors = {
+  black: '#594a7d',
+  red: '#f35970',
+  green: '#83d996',
+  yellow: '#ffffff',
+  blue: '#62bff7',
+  magenta: '#f15195',
+  cyan: '#48ecd3',
+  white: '#f5e566',
+};
+colors.lightBlack = colors.black;
+colors.lightRed = colors.red;
+colors.lightGreen = colors.green;
+colors.lightYellow = colors.yellow;
+colors.lightBlue = colors.blue;
+colors.lightMagenta = colors.magenta;
+colors.lightCyan = colors.cyan;
+colors.lightWhite = colors.white;
 
-exports.decorateConfig = function(config) {
+exports.decorateConfig = function tufteDecorateConfig(config) {
   return Object.assign({}, config, {
-    cursorColor: colors.blue + 'aa', // opacity of 2/3
+    cursorColor: `${colors.blue}aa`, // opacity of 2/3
     foregroundColor: colors.white,
     backgroundColor: colors.black,
     borderColor: colors.magenta,
-    colors
+    colors,
   });
 };

@@ -34,10 +34,13 @@
   },
   "scripts": {
     "commitmsg": "commit-msg-must-use-emoji",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint index.js"
   },
   "devDependencies": {
     "commit-msg-must-use-emoji": "^1.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0",
     "husky": "^0.14.3"
   }
 }
